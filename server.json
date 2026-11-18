@@ -1,10 +1,18 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
-  "name": "com.rootmention/seo",
+  "name": "io.github.burmanharry/rootmention",
   "title": "RootMention SEO",
   "description": "Free SEO audit, SEO break-even calculator and RootMention service info for AI assistants.",
-  "repository": { "url": "https://github.com/burmanharry/rootmention-mcp", "source": "github" },
+  "repository": {
+    "url": "https://github.com/burmanharry/rootmention-mcp",
+    "source": "github"
+  },
   "websiteUrl": "https://rootmention.com",
   "version": "1.0.0",
-  "remotes": [{ "type": "streamable-http", "url": "https://rootmention.com/mcp" }]
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://rootmention.com/mcp"
+    }
+  ]
 }
