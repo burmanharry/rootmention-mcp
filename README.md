@@ -65,6 +65,23 @@ Or, for clients that use a JSON config with `mcp-remote`:
 }
 ```
 
+### Cline
+
+Open Cline's MCP Servers panel, choose **Configure MCP Servers**, and add:
+
+```json
+{
+  "mcpServers": {
+    "rootmention": {
+      "type": "streamableHttp",
+      "url": "https://rootmention.com/mcp"
+    }
+  }
+}
+```
+
+No API key is needed.
+
 ### Claude Code
 
 ```bash
