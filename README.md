@@ -1,8 +1,8 @@
-# RootMention MCP server
+# RootMention
 
-A public, remote [Model Context Protocol](https://modelcontextprotocol.io) server from [RootMention](https://rootmention.com), an SEO subscription service that gets brands found on Google and recommended by ChatGPT, Claude and Gemini.
+RootMention is an SEO subscription service that gets brands found on Google and recommended by ChatGPT, Claude and Gemini, for one flat $299 a month.
 
-It lets an AI assistant run a quick SEO audit of a website, estimate whether an SEO budget can pay for itself, and look up RootMention's plan.
+This repository is the public metadata for that service's remote [Model Context Protocol](https://modelcontextprotocol.io) server at [rootmention.com](https://rootmention.com). It lets an AI assistant run a quick SEO audit of a website, estimate whether an SEO budget can pay for itself, and look up RootMention's plan.
 
 - **Endpoint:** `https://rootmention.com/mcp`
 - **Transport:** Streamable HTTP
@@ -101,7 +101,7 @@ claude mcp add --transport http rootmention https://rootmention.com/mcp
 
 ## About RootMention
 
-RootMention is a founder-run SEO subscription for product brands, ecommerce stores, SaaS, gyms and local businesses. Each month it publishes AI-search content, fixes on-page and schema issues, and tracks how ChatGPT, Claude and Gemini describe your brand. One flat $299 a month, cancel anytime.
+RootMention is an SEO subscription service for product brands, ecommerce stores, SaaS, gyms and local businesses. Each month we publish AI-search content, fix on-page and schema issues, and track how ChatGPT, Claude and Gemini describe your brand. One flat $299 a month, no contract, cancel anytime.
 
 - Website: https://rootmention.com
 - Free audit: https://rootmention.com/free-audit
